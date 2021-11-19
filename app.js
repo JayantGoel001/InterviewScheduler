@@ -31,7 +31,7 @@ app.use(function(req,res,next) {
 	}
 	let url = "";
 	if(process.env.NODE_ENV==="PRODUCTION"){
-		url = "https://jayantgoel001.github.io";
+		url = "https://jayantgoel-interview-scheduler.herokuapp.com/";
 	}else {
 		url = "http://localhost:4200/";
 	}

@@ -42,3 +42,6 @@ interview start time and end time
 
 ## Screenshots
 
+![ss1](https://github.com/JayantGoel001/InterviewScheduler/blob/master/screenshots/ss1.png)
+
+![ss2](https://github.com/JayantGoel001/InterviewScheduler/blob/master/screenshots/ss2.png)

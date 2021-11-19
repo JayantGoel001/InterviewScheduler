@@ -29,7 +29,13 @@ app.use(function(req,res,next) {
 		}
 		res.status(statusCode).json(obj);
 	}
-	res.header("Access-Control-Allow-Origin", "*");
+	let url = "";
+	if(process.env.NODE_ENV==="PRODUCTION"){
+		url = "https://jayantgoel001.github.io";
+	}else {
+		url = "http://localhost:4200/";
+	}
+	res.header("Access-Control-Allow-Origin", url);
 	res.header("Access-Control-Allow-Methods", "GET , PUT , POST , DELETE");
 	res.header("Access-Control-Allow-Headers", "Content-Type, x-requested-with");
 	next();

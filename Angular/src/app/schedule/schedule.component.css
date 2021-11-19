@@ -6,7 +6,7 @@
 }
 .container .form{
 	background-color: white;
-	margin-top: 10%;
+	margin-top: 5%;
 }
 .container .form h1{
 	padding: 20px 0;
@@ -35,6 +35,6 @@
 		width: 80%;
 	}
 	.container .form{
-		margin-top: 5%;
+		margin-top: 3%;
 	}
 }

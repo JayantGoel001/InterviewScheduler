@@ -34,7 +34,7 @@ app.use(function(req,res,next) {
 	if(process.env.NODE_ENV==="PRODUCTION"){
 		url = "https://jayantgoel-interview-scheduler.herokuapp.com/";
 	}else {
-		url = "http://localhost:4200/";
+		url = "http://localhost:4200";
 	}
 	res.header("Access-Control-Allow-Origin", url);
 	res.header("Access-Control-Allow-Methods", "GET , PUT , POST , DELETE");

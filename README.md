@@ -22,7 +22,7 @@ interview start time and end time
    *Note: No need to add a page to create Users/Participants. Create them directly in the
    database*
 
-### Good to haves(2nd completed & 1st done using nodemailer but not working).
+### Good to haves(1st & 2nd completed).
 
 1. Send emails to participants on interview creation.
 2. Create your app’s frontend as a SPA

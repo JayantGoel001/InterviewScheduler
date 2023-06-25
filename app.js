@@ -22,8 +22,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'Angular','build')));
 
 
-app.use(function(req,res,next) {
-	res.statusJson = function(statusCode,data) {
+app.use((req,res,next) => {
+	res.statusJson = (statusCode,data) => {
 		let obj = {
 			...data,
 			statusCode:statusCode
@@ -32,7 +32,7 @@ app.use(function(req,res,next) {
 	}
 	let url = "";
 	if(process.env.NODE_ENV==="PRODUCTION"){
-		url = "https://jayantgoel-interview-scheduler.herokuapp.com/";
+		url = "https://interview-scheduler-ib.vercel.app";
 	}else {
 		url = "http://localhost:4200";
 	}

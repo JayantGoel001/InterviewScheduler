@@ -1,9 +1,9 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute, Router} from "@angular/router";
 import {HttpClient} from "@angular/common/http";
-import {MatSnackBar} from "@angular/material/snack-bar";
+import {MatLegacySnackBar as MatSnackBar} from "@angular/material/legacy-snack-bar";
 import {environment} from "../../environments/environment";
-import {MatChip} from "@angular/material/chips";
+import {MatLegacyChip as MatChip} from "@angular/material/legacy-chips";
 import {StorageService} from "../storage.service";
 
 @Component({

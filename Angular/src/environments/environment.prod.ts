@@ -1,4 +1,4 @@
 export const environment = {
 	production: true,
-	baseURL: "https://jayantgoel-interview-scheduler.herokuapp.com/api"
+	baseURL: "https://interview-scheduler-ib.vercel.app/api"
 };

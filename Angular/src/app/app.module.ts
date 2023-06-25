@@ -7,13 +7,13 @@ import { CardComponent } from './card/card.component';
 import { HomeComponent } from './home/home.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatChipsModule} from "@angular/material/chips";
+import {MatLegacyChipsModule as MatChipsModule} from "@angular/material/legacy-chips";
 import { HttpModule } from '@angular/http';
 import {HttpClientModule} from "@angular/common/http";
-import {MatSnackBarModule} from "@angular/material/snack-bar";
-import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatLegacySnackBarModule as MatSnackBarModule} from "@angular/material/legacy-snack-bar";
+import {MatLegacyFormFieldModule as MatFormFieldModule} from "@angular/material/legacy-form-field";
 import {MatNativeDateModule} from "@angular/material/core";
-import {MatInputModule} from "@angular/material/input";
+import {MatLegacyInputModule as MatInputModule} from "@angular/material/legacy-input";
 import {MatDatepickerModule} from "@angular/material/datepicker";
 import {MatIconModule} from "@angular/material/icon";
 
